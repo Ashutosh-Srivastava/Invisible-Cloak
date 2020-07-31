@@ -4,7 +4,7 @@ I will try my best to explain [code](Invisibile_Cloak.py)
 
 # Installation     
 
-Clone this repo to your local machine: `git clone https://github.com/devptyagi/InvisibilityCloakOpenCV-Python.git`    
+Clone this repo to your local machine: `git clone https://github.com/Ashutosh-Srivastava/Invisible-Cloak`    
 
 ### Importing all the required libraries
 ```python
