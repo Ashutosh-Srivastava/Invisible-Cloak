@@ -45,7 +45,7 @@ Therefore capturing multiple images of static background with a for loop.
 ### Understanding the while loop
 `cam.isOpened()` Returns true if cap is initialized.
 Just like we got the frames for background we try to recieve 
-current frames in the while loop using `ret, img = cap.read()`
+current frames in the while loop using `ret, image = cap.read()`
 
 #### Extracting red color in the image.
 So the idea is that we will use a red color cloth as out invisibility cloak.
