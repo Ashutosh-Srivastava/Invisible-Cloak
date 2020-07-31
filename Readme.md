@@ -29,9 +29,9 @@ for i in range(60):
     ret,background=cam.read()
 ```
 
-If you wish to use this with your web cam, change Line 5 to `cam = CV.VideoCapture(0)`
-Or if you wish to use it with a pre-recorded video, change it to `cam = CV.VideoCapture(r"video_path")` 
-and enter your video path in double quotes.
+If you wish to use this with your web cam, change line 8 to `cam = CV.VideoCapture(0)`
+or if you wish to use it with a pre-recorded video, change it to `cam = CV.VideoCapture(r"video_path")` 
+and enter your video path in double quotes for ex. `cam = CV.VideoCapture(r"C:\Users\Dell\Documents\test.mp4")`.
 
 >cam.read() method enables us to capture latest frame(stored in variable `background`) with the camera
 >and it also returns a Boolean (True/False stored in `ret`). If frame is read correctly, it will be True else False.
