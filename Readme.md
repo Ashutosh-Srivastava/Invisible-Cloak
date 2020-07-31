@@ -6,12 +6,21 @@ I will try my best to explain [code](Invisibile_Cloak.py)
 
 Clone this repo to your local machine: `git clone https://github.com/Ashutosh-Srivastava/Invisible-Cloak`    
 
+# Requirements
+> Any Python IDE with version 3+
+> OpenCV
+> Numpy
+> Time
+
+
 ### Importing all the required libraries
 ```python
 import cv2 as CV
 import numpy as NP
 import time
 ```
+
+# Explanation
 
 ### Capturing the static background frame
 In order to replace the current frame pixels with the background pixels for invisibility
